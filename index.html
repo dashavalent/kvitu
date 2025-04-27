@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Montserrat:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квітковий рай - Головна</title>
+    <link rel="stylesheet"
+            href="style.css"/>
+            <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">Квітковий рай</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Головна</a></li>
+                <li><a href="catalog.html">Каталог</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+      <!-- Карусель у шапці -->
+    <div class="header-carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <img src="https://static.lepestki.ua/filestorage/products/338/67445/main.jpg" alt="Квіткові композиції">
+                <div class="slide-text">
+                    <h1>Ласкаво просимо до світу квітів!</h1>
+                    <p>Найкращі квіти для ваших найяскравіших моментів</p>
+                    <button onclick="location.href='catalog.html'" class="btn">Перейти до каталогу</button>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="https://viaflor.com.ua/edit/uploads/page/1485/636814df7391b.jpg" alt="Свіжі квіти">
+                <div class="slide-text">
+                    <h1>Свіжі квіти щодня</h1>
+                    <p>Безпосередньо від виробників</p>
+                    <button onclick="location.href='catalog.html'" class="btn">Дивитися асортимент</button>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="https://inflowers.lviv.ua/image/cache/catalog/product/10392_3-625x500.jpg" alt="Букети на замовлення">
+                <div class="slide-text">
+                    <h1>Індивідуальні букети</h1>
+                    <p>Створені спеціально для вас</p>
+                    <button onclick="location.href='contacts.html'" class="btn">Замовити</button>
+                </div>
+            </div>
+        </div>
+        <div class="carousel-controls">
+            <button class="carousel-prev">❮</button>
+            <button class="carousel-next">❯</button>
+        </div>
+        <div class="carousel-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <main>
+            <h2>Про нас</h2>
+            <p>Ми - команда ентузіастів, яка об'єднала любов до квітів та професійний підхід. Наші квіти завжди свіжі, а букети - унікальні.</p>
+            <div class="features">
+                <div class="feature">
+                    <img src="images/flower-icon.png" alt="Квіти">
+                    <h3>Свіжі квіти</h3>
+                    <p>Щоденні поставки від найкращих виробників</p>
+                </div>
+                <div class="feature">
+                    <img src="images/delivery-icon.png" alt="Доставка">
+                    <h3>Швидка доставка</h3>
+                    <p>Доставляємо квіти у зручний для вас час</p>
+                </div>
+                <div class="feature">
+                    <img src="images/design-icon.png" alt="Дизайн">
+                    <h3>Індивідуальний підхід</h3>
+                    <p>Створюємо букети з урахуванням ваших побажань</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Квітковий рай. Усі права захищені.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+

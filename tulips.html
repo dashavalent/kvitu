@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог квітів - Квітковий рай</title>
+    <link rel="stylesheet"
+    href="style.css"/>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="tabs">
+        <button class="tab-btn active" onclick="loadTab('roses')">Троянди</button>
+        <button class="tab-btn" onclick="loadTab('tulips')">Тюльпани</button>
+        <!-- Інші кнопки -->
+    </div>
+    
+    <iframe id="tabContent" src="roses.html" frameborder="0" style="width:100%; height:600px;"></iframe>
+    
+    <script>
+    function loadTab(tabName) {
+        document.getElementById('tabContent').src = tabName + '.html';
+        
+        // Оновлюємо активну кнопку
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        event.currentTarget.classList.add('active');
+    }
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <header>
+        <div class="logo">Квітковий рай</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Головна</a></li>
+                <li><a href="catalog.html" class="active">Каталог</a></li>
+                <li><a href="contacts.html">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+<button class="tab-btn" onclick="openTab('tulips')">Тюльпани</button>
+<div class="tab-content" id="tulips">
+    <div class="flowers-container">
+        <div class="flower-card">
+            <img src="images/tulip1.jpg" alt="Червоний тюльпан">
+            <h3>Червоний тюльпан</h3>
+            <p>Яскравий символ ідеального кохання</p>
+            <span class="price">30 грн/шт</span>
+            <button class="btn">Замовити</button>
+        </div>
+        <div class="flower-card">
+            <img src="images/tulip1.jpg" alt="Червоний тюльпан">
+            <h3>Червоний тюльпан</h3>
+            <p>Яскравий символ ідеального кохання</p>
+            <span class="price">30 грн/шт</span>
+            <button class="btn">Замовити</button>
+        </div>
+        <div class="flower-card">
+            <img src="images/tulip1.jpg" alt="Червоний тюльпан">
+            <h3>Червоний тюльпан</h3>
+            <p>Яскравий символ ідеального кохання</p>
+            <span class="price">30 грн/шт</span>
+            <button class="btn">Замовити</button>
+        </div>
+        <div class="flower-card">
+            <img src="images/tulip1.jpg" alt="Червоний тюльпан">
+            <h3>Червоний тюльпан</h3>
+            <p>Яскравий символ ідеального кохання</p>
+            <span class="price">30 грн/шт</span>
+            <button class="btn">Замовити</button>
+        </div>
+        <div class="flower-card">
+            <img src="images/tulip1.jpg" alt="Червоний тюльпан">
+            <h3>Червоний тюльпан</h3>
+            <p>Яскравий символ ідеального кохання</p>
+            <span class="price">30 грн/шт</span>
+            <button class="btn">Замовити</button>
+        </div>
+        <div class="flower-card">
+            <img src="images/tulip1.jpg" alt="Червоний тюльпан">
+            <h3>Червоний тюльпан</h3>
+            <p>Яскравий символ ідеального кохання</p>
+            <span class="price">30 грн/шт</span>
+            <button class="btn">Замовити</button>
+        </div>
+        <div class="flower-card">
+            <img src="images/tulip1.jpg" alt="Червоний тюльпан">
+            <h3>Червоний тюльпан</h3>
+            <p>Яскравий символ ідеального кохання</p>
+            <span class="price">30 грн/шт</span>
+            <button class="btn">Замовити</button>
+        </div>
+        <div class="flower-card">
+            <img src="images/tulip1.jpg" alt="Червоний тюльпан">
+            <h3>Червоний тюльпан</h3>
+            <p>Яскравий символ ідеального кохання</p>
+            <span class="price">30 грн/шт</span>
+            <button class="btn">Замовити</button>
+        </div>
+        <div class="flower-card">
+            <img src="images/tulip1.jpg" alt="Червоний тюльпан">
+            <h3>Червоний тюльпан</h3>
+            <p>Яскравий символ ідеального кохання</p>
+            <span class="price">30 грн/шт</span>
+            <button class="btn">Замовити</button>
+        </div>
+        <div class="flower-card">
+            <img src="images/tulip1.jpg" alt="Червоний тюльпан">
+            <h3>Червоний тюльпан</h3>
+            <p>Яскравий символ ідеального кохання</p>
+            <span class="price">30 грн/шт</span>
+            <button class="btn">Замовити</button>
+        </div>
+    </div>
+</div>
+<footer>
+    <p>&copy; 2023 Квітковий рай. Усі права захищені.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
