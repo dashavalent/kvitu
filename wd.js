@@ -77,7 +77,6 @@ window.addEventListener('scroll', function() {
         header.style.padding = '1rem 2rem';
     }
 });
-// Додаємо цей код у файл js/script.js
 document.addEventListener('DOMContentLoaded', function() {
     // Карусель у шапці
     const carouselContainer = document.querySelector('.carousel-container');
@@ -142,13 +141,6 @@ document.addEventListener('DOMContentLoaded', function() {
 
 });
 
-
-
-
-
-
-
-
 function openTab(tabId) {
     // Приховуємо всі вкладки
     const tabContents = document.getElementsByClassName('tab-content');
@@ -185,3 +177,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+
+

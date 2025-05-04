@@ -4,9 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Каталог квітів - Квітковий рай</title>
-    <link rel="stylesheet"
-    href="style.css"/>
-    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css"/>
+    <script src="wd.js" defer></script>
 </head>
 <body>
     <header>
@@ -24,79 +23,56 @@
         <h1>Наш каталог квітів</h1>
         <div class="tabs">
             <button class="tab-btn active" onclick="openTab('roses')">Троянди</button>
-           
+            <button class="tab-btn" onclick="openTab('tulips')">Тюльпани</button>
             <button class="tab-btn" onclick="openTab('lilies')">Лілії</button>
             <button class="tab-btn" onclick="openTab('chrysanthemums')">Хризантеми</button>
+            <button class="tab-btn" onclick="openTab('orchids')">Орхідеї</button>
+            <button class="tab-btn" onclick="openTab('peonies')">Півонії</button>
+            <button class="tab-btn" onclick="openTab('gerberas')">Гербери</button>
+            <button class="tab-btn" onclick="openTab('sunflowers')">Соняшники</button>
+            <button class="tab-btn" onclick="openTab('all')">Всі квіти</button>
         </div>
-
+        <!-- Вкладка з трояндами -->
         <div class="tab-content active" id="roses">
             <div class="flowers-container">
                 <div class="flower-card">
-                    <img src="images/rose1.jpg" alt="Червона троянда">
+                    <img src="https://flowers-city.com.ua/media/catalog/product/cache/9/image/9df78eab33525d08d6e5fb8d27136e95/0/e/0e28e917-3526-4172-a138-b73e2d9717cb.jpeg" alt="Червона троянда">
                     <h3>Червона троянда</h3>
                     <p>Класична червона троянда, символ любові</p>
                     <span class="price">50 грн/шт</span>
                     <button class="btn">Замовити</button>
                 </div>
                 <div class="flower-card">
-                    <img src="images/rose1.jpg" alt="Червона троянда">
-                    <h3>Червона троянда</h3>
+                    <img src="https://rose-buketeria.com.ua/content/images/26/474x480l50nn0/101-rozheva-troyanda-60-sm-73631029918754.jpeg" alt="Рожева троянда">
+                    <h3>Рожева троянда</h3>
+                    <p> Рожева ідеальна троянда, символ любові</p>
+                    <span class="price">50 грн/шт</span>
+                    <button class="btn">Замовити</button>
+                </div>
+                <div class="flower-card">
+                    <img src="https://kvity.if.ua/wp-content/uploads/2019/01/101-yellow-roses-2.jpg" alt="Червона троянда">
+                    <h3>Жовта троянда</h3>
                     <p>Класична червона троянда, символ любові</p>
                     <span class="price">50 грн/шт</span>
                     <button class="btn">Замовити</button>
                 </div>
                 <div class="flower-card">
-                    <img src="images/rose1.jpg" alt="Червона троянда">
-                    <h3>Червона троянда</h3>
+                    <img src="https://kvitochka.kiev.ua/image/cache/catalog/image/cache/catalog/00000000009/bouquet-roses-duet-612x612.webp" alt="Червона троянда">
+                    <h3> Троянда Дует </h3>
                     <p>Класична червона троянда, символ любові</p>
                     <span class="price">50 грн/шт</span>
                     <button class="btn">Замовити</button>
                 </div>
                 <div class="flower-card">
-                    <img src="images/rose1.jpg" alt="Червона троянда">
-                    <h3>Червона троянда</h3>
+                    <img src="https://shop.camellia.ua/upload/kamelia_flora/photos/02/f9/1200x1200/1e5c1d10_63e512ace19d2.JPG" alt="Червона троянда">
+                    <h3>Французька троянда</h3>
                     <p>Класична червона троянда, символ любові</p>
                     <span class="price">50 грн/шт</span>
                     <button class="btn">Замовити</button>
                 </div>
                 <div class="flower-card">
-                    <img src="images/rose1.jpg" alt="Червона троянда">
-                    <h3>Червона троянда</h3>
-                    <p>Класична червона троянда, символ любові</p>
-                    <span class="price">50 грн/шт</span>
-                    <button class="btn">Замовити</button>
-                </div>
-                <div class="flower-card">
-                    <img src="images/rose1.jpg" alt="Червона троянда">
-                    <h3>Червона троянда</h3>
-                    <p>Класична червона троянда, символ любові</p>
-                    <span class="price">50 грн/шт</span>
-                    <button class="btn">Замовити</button>
-                </div>
-                <div class="flower-card">
-                    <img src="images/rose1.jpg" alt="Червона троянда">
-                    <h3>Червона троянда</h3>
-                    <p>Класична червона троянда, символ любові</p>
-                    <span class="price">50 грн/шт</span>
-                    <button class="btn">Замовити</button>
-                </div>
-                <div class="flower-card">
-                    <img src="images/rose1.jpg" alt="Червона троянда">
-                    <h3>Червона троянда</h3>
-                    <p>Класична червона троянда, символ любові</p>
-                    <span class="price">50 грн/шт</span>
-                    <button class="btn">Замовити</button>
-                </div>
-                <div class="flower-card">
-                    <img src="images/rose1.jpg" alt="Червона троянда">
-                    <h3>Червона троянда</h3>
-                    <p>Класична червона троянда, символ любові</p>
-                    <span class="price">50 грн/шт</span>
-                    <button class="btn">Замовити</button>
-                </div>
-                <div class="flower-card">
-                    <img src="images/rose1.jpg" alt="Червона троянда">
-                    <h3>Червона троянда</h3>
+                    <img src="https://rozamimoza.pp.ua/wp-content/uploads/2015/01/101-krasnaya-i-belaya-roza.jpg" alt="Червона троянда">
+                    <h3>Троянда мімоза</h3>
                     <p>Класична червона троянда, символ любові</p>
                     <span class="price">50 грн/шт</span>
                     <button class="btn">Замовити</button>
@@ -104,107 +80,167 @@
             </div>
         </div>
 
-      
+        <!-- Вкладка з тюльпанами -->
+        <div class="tab-content" id="tulips">
+            <div class="flowers-container">
+                <div class="flower-card">
+                    <img src="https://flowersdelux.com.ua/wp-content/uploads/2021/01/0-02-0a-4127c8012fe469c0546e6b93358c11acc2fa4abe763c1023a3c24a24534203c4_89969ce1.jpg" alt="Червоний тюльпан">
+                    <h3>Червоний тюльпан</h3>
+                    <p>Яскравий символ ідеального кохання</p>
+                    <span class="price">30 грн/шт</span>
+                    <button class="btn">Замовити</button>
+
+                </div>
+                <div class="flower-card">
+                    <img src="https://static.insalescdn.com/images/products/1/7527/666746215/2834-1.jpg" alt="Жовтий тюльпан">
+                    <h3>Жовтий тюльпан</h3>
+                    <p>Символ радості та сонячного настрою</p>
+                    <span class="price">32 грн/шт</span>
+                    <button class="btn">Замовити</button>
+                </div>
+                <div class="flower-card">
+                    <img src="https://camellia-market.com.ua/image/cache/catalog/6feb/img_3335-auto_width_1333.jpg" alt="Жовтий тюльпан">
+                    <h3>Рожевий тюльпан</h3>
+                    <p>Символ радості та сонячного настрою</p>
+                    <span class="price">32 грн/шт</span>
+                    <button class="btn">Замовити</button>
+                </div>
+                <div class="flower-card">
+                    <img src="https://flowersdelux.com.ua/wp-content/uploads/2021/01/0-02-0a-fe4dfd506c515409f3353ede06d367e5d50e05af226d59e0dfd989413249ebda_eb1d8328.jpg" alt="Жовтий тюльпан">
+                    <h3>Білий тюльпан</h3>
+                    <p>Символ радості та сонячного настрою</p>
+                    <span class="price">32 грн/шт</span>
+                    <button class="btn">Замовити</button>
+                </div>
+                <div class="flower-card">
+                    <img src="https://flowers.ua/images/Flowers/3099.jpg" alt="Жовтий тюльпан">
+                    <h3> Тюльпани</h3>
+                    <p>Символ радості та сонячного настрою</p>
+                    <span class="price">32 грн/шт</span>
+                    <button class="btn">Замовити</button>
+                </div>
+                <div class="flower-card">
+                    <img src="https://роза-мимоза.рф/image/cache/catalog/product/0-1/%20%D0%B1%D1%83%D0%BA%D0%B5%D1%82%2031%20%D1%82%D1%8E%D0%BB%D1%8C%D0%BF%D0%B0%D0%BD%20%D0%B2%20%D1%83%D0%BF%D0%B0%D0%BA%D0%BE%D0%B2%D0%BA%D0%B5%20R649-1000x1000.JPG" alt="Жовтий тюльпан">
+                    <h3>Фіолетовий тюльпан</h3>
+                    <p>Символ радості та сонячного настрою</p>
+                    <span class="price">32 грн/шт</span>
+                    <button class="btn">Замовити</button>
+                </div>
+                <div class="flower-card">
+                    <img src="https://buket-express.ua/image/cache/catalog/e057877e-ddba-4b2e-9487-07beaa43d5b3-479x471.jpg" alt="Жовтий тюльпан">
+                    <h3>Букет тюльпан</h3>
+                    <p>Символ радості та сонячного настрою</p>
+                    <span class="price">32 грн/шт</span>
+                    <button class="btn">Замовити</button>
+                </div>
+       
+            </div>
+        </div>
 
         <div class="tab-content" id="lilies">
             <div class="flowers-container">
                 <div class="flower-card">
-                    <img src="images/lily1.jpg" alt="Біла лілія">
+                    <img src="https://kerch.rosflower.ru/upload/resize_cache/iblock/b4f/560_470_1/3-li.jpg" alt="Біла лілія">
                     <h3>Біла лілія</h3>
                     <p>Символ благородства та величі</p>
                     <span class="price">55 грн/шт</span>
                     <button class="btn">Замовити</button>
                 </div>
-                <!-- Додайте ще 9 лілій -->
+                <div class="flower-card">
+                    <img src="https://vyazniki.flowlove.ru/wp-content/themes/init/catalog/images/products/liliya-rozovaya-0-large.webp" alt="Рожева лілія">
+                    <h3>Рожева лілія</h3>
+                    <p>Витонченість та жіночність</p>
+                    <span class="price">60 грн/шт</span>
+                    <button class="btn">Замовити</button>
+                </div>
+                <div class="flower-card">
+                    <img src="https://recommerce.com.ua/static/floria.reshop.com.ua/catalog/370/2362704495917064f77140_medium.jpg" alt="Рожева лілія">
+                    <h3>Фіолетова лілія</h3>
+                    <p>Витонченість та жіночність</p>
+                    <span class="price">60 грн/шт</span>
+                    <button class="btn">Замовити</button>
+                </div>
+                <div class="flower-card">
+                    <img src="https://static.insalescdn.com/images/products/1/6651/751942139/3548-1-5-liliy-u-buketi-apetitna-liliya.jpg" alt="Рожева лілія">
+                    <h3>Малинова лілія</h3>
+                    <p>Витонченість та жіночність</p>
+                    <span class="price">60 грн/шт</span>
+                    <button class="btn">Замовити</button>
+                </div>
             </div>
         </div>
 
         <div class="tab-content" id="chrysanthemums">
             <div class="flowers-container">
                 <div class="flower-card">
-                    <img src="images/chrys1.jpg" alt="Біла хризантема">
+                    <img src="https://flower-shop.com.ua/image/cache/catalog/bouquets/xrizantema/new3/21-white-chrysanthemums-600x600.png" alt="Біла хризантема">
                     <h3>Біла хризантема</h3>
                     <p>Символ довголіття та чистоти</p>
                     <span class="price">40 грн/шт</span>
                     <button class="btn">Замовити</button>
                 </div>
-                <!-- Додайте ще 9 хризантем -->
+                <div class="flower-card">
+                    <img src="https://camellia-market.com.ua/image/cache/catalog/12.10/photo_2023-10-19_16-13-10-auto_width_1333.jpg" alt="Жовта хризантема">
+                    <h3>Жовта хризантема</h3>
+                    <p>Символ оптимізму та життєрадості</p>
+                    <span class="price">38 грн/шт</span>
+                    <button class="btn">Замовити</button>
+                </div>
+                <div class="flower-card">
+                    <img src="https://flowersdelux.com.ua/wp-content/uploads/2018/05/%D0%B1%D1%83%D0%BA%D0%B5%D1%82.jpg" alt="Жовта хризантема">
+                    <h3>Рожева хризантема</h3>
+                    <p>Символ оптимізму та життєрадості</p>
+                    <span class="price">38 грн/шт</span>
+                    <button class="btn">Замовити</button>
+                </div>
+                <div class="flower-card">
+                    <img src="https://www.annetflowers.com.ua/image/cache/catalog/hrizantem/101-hrizantema-miks-roskosh(1)-800x800.jpg" alt="Жовта хризантема">
+                    <h3>Фіолетава та біла хризантема</h3>
+                    <p>Символ оптимізму та життєрадості</p>
+                    <span class="price">38 грн/шт</span>
+                    <button class="btn">Замовити</button>
+                </div>
             </div>
         </div>
-        <div class="tab-content" id="tulips">
+
+
+        <!-- Нова вкладка з півоніями -->
+        <div class="tab-content" id="peonies">
             <div class="flowers-container">
                 <div class="flower-card">
-                    <img src="images/tulip1.jpg" alt="Червоний тюльпан">
-                    <h3>Червоний тюльпан</h3>
-                    <p>Яскравий символ ідеального кохання</p>
-                    <span class="price">30 грн/шт</span>
+                    <img src="https://www.royal-flowers.dp.ua/image/cache/catalog/Bouquet/box%20hat/pion-box-51-720x720.jpg" alt="Рожева півонія">
+                    <h3>Рожева півонія</h3>
+                    <p>Символ процвітання та щасливого шлюбу</p>
+                    <span class="price">65 грн/шт</span>
                     <button class="btn">Замовити</button>
                 </div>
                 <div class="flower-card">
-                    <img src="images/tulip1.jpg" alt="Червоний тюльпан">
-                    <h3>Червоний тюльпан</h3>
-                    <p>Яскравий символ ідеального кохання</p>
-                    <span class="price">30 грн/шт</span>
+                    <img src="https://static.insalescdn.com/images/products/1/2750/225536702/452-2.jpg" alt="Біла півонія">
+                    <h3>Біла півонія</h3>
+                    <p>Символ чистоти та скромності</p>
+                    <span class="price">70 грн/шт</span>
                     <button class="btn">Замовити</button>
                 </div>
                 <div class="flower-card">
-                    <img src="images/tulip1.jpg" alt="Червоний тюльпан">
-                    <h3>Червоний тюльпан</h3>
-                    <p>Яскравий символ ідеального кохання</p>
-                    <span class="price">30 грн/шт</span>
+                    <img src="https://www.superflowers.com.ua/image/cache/data/pion/buket-iz-101-piona-481(1)-800x800.jpg" alt="Рожева півонія">
+                    <h3>Рожева та біла півонія</h3>
+                    <p>Символ процвітання та щасливого шлюбу</p>
+                    <span class="price">65 грн/шт</span>
                     <button class="btn">Замовити</button>
                 </div>
                 <div class="flower-card">
-                    <img src="images/tulip1.jpg" alt="Червоний тюльпан">
-                    <h3>Червоний тюльпан</h3>
-                    <p>Яскравий символ ідеального кохання</p>
-                    <span class="price">30 грн/шт</span>
-                    <button class="btn">Замовити</button>
-                </div>
-                <div class="flower-card">
-                    <img src="images/tulip1.jpg" alt="Червоний тюльпан">
-                    <h3>Червоний тюльпан</h3>
-                    <p>Яскравий символ ідеального кохання</p>
-                    <span class="price">30 грн/шт</span>
-                    <button class="btn">Замовити</button>
-                </div>
-                <div class="flower-card">
-                    <img src="images/tulip1.jpg" alt="Червоний тюльпан">
-                    <h3>Червоний тюльпан</h3>
-                    <p>Яскравий символ ідеального кохання</p>
-                    <span class="price">30 грн/шт</span>
-                    <button class="btn">Замовити</button>
-                </div>
-                <div class="flower-card">
-                    <img src="images/tulip1.jpg" alt="Червоний тюльпан">
-                    <h3>Червоний тюльпан</h3>
-                    <p>Яскравий символ ідеального кохання</p>
-                    <span class="price">30 грн/шт</span>
-                    <button class="btn">Замовити</button>
-                </div>
-                <div class="flower-card">
-                    <img src="images/tulip1.jpg" alt="Червоний тюльпан">
-                    <h3>Червоний тюльпан</h3>
-                    <p>Яскравий символ ідеального кохання</p>
-                    <span class="price">30 грн/шт</span>
-                    <button class="btn">Замовити</button>
-                </div>
-                <div class="flower-card">
-                    <img src="images/tulip1.jpg" alt="Червоний тюльпан">
-                    <h3>Червоний тюльпан</h3>
-                    <p>Яскравий символ ідеального кохання</p>
-                    <span class="price">30 грн/шт</span>
-                    <button class="btn">Замовити</button>
-                </div>
-                <div class="flower-card">
-                    <img src="images/tulip1.jpg" alt="Червоний тюльпан">
-                    <h3>Червоний тюльпан</h3>
-                    <p>Яскравий символ ідеального кохання</p>
-                    <span class="price">30 грн/шт</span>
+                    <img src="https://flowersis.kiev.ua/filestorage/products/3/407/1_490x655.jpg" alt="Біла півонія">
+                    <h3>Червона півонія</h3>
+                    <p>Символ чистоти та скромності</p>
+                    <span class="price">70 грн/шт</span>
                     <button class="btn">Замовити</button>
                 </div>
             </div>
         </div>
+        <div class="flowers-container" id="flowersContainer">
+            <!-- Квіти будуть завантажені через JavaScript -->
+        </div>
+        
     </main>
 
     <footer>
